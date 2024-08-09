@@ -1,0 +1,12 @@
+class Solution(object):
+    def isPalindrome(self, x):
+        str_x = str(x)
+        reverse = str_x[::-1]
+        if reverse == str_x:
+            return True
+        else:
+            False
+solution = Solution()
+x = 121
+result = solution.isPalindrome(x)
+        
